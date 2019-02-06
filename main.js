@@ -14,7 +14,7 @@ let contact; $('contact')
   $(document).ready(function(){
     init();
  })
- 
+
  function init(){
     $(trash).each(function(i, contact){
         $(contact).click(onDelete);})
